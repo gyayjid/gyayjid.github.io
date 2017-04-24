@@ -253,6 +253,7 @@ body
   position: relative;
   width: 100%;
   display: inline-block;
+  vertical-align: top;
 }
 .galary__not-hover img
 {
