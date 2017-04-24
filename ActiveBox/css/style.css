@@ -228,38 +228,39 @@ body
 	background: #ff0000;
 }
 /*****************************START GALARY*******************************/
-.services-block
+.services__block
 {
 	font-family: 'Raleway', sans-serif;
 }
-.services-block img
+.services__block img
 {
 	margin: 1.875em 0;
 }
-.services-block h3
+.services__block h3
 {
 	text-transform: uppercase;
 	font-size: 0.875em;
 	font-weight: bold;
 }
-.services-block p
+.services__block p
 {
 	color: #6c7279;
 	font-size: 0.875em;
 	padding: 1.7857em 0em;
 }
 
-.not-hover {
+.galary__not-hover {
   position: relative;
   width: 100%;
+  height: 100%;
   display: inline-block;
 }
-.not-hover img
+.galary__not-hover img
 {
 	width: 100%;
 	height: 100%;
 }
-.hover {
+.galary__hover {
     background-color: rgba(232,83,81,0.8);
     position: absolute;
     top: 0;
@@ -271,7 +272,7 @@ body
     color: #fff;
     display: none;
 }
-.hover h4
+.galary__hover h4
 {
 	position: absolute;
 	top: 50%;
@@ -281,7 +282,7 @@ body
 	text-transform: uppercase;
 	font-family: 'Raleway';
 }
-.hover p
+.galary__hover p
 {
 	position: absolute;
 	top: 58%;
@@ -290,7 +291,7 @@ body
     bottom: 0;
     font-family: 'Raleway';
 }
-.not-hover:hover .hover {
+.galary__not-hover:hover .galary__hover {
     display: block;
 }
 /***********************************Olya**********************************/
